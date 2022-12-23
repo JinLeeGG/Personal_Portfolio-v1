@@ -19,7 +19,7 @@
     --mainText: hsl(var(--hue-color), 10%, 20%);
     --text-color-light: hsl(var(--hue-color), 10%, 65%);
     --input-color: hsl(var(--hue-color), 70%, 88%);
-    --body-color: hsl(var(--hue-color), 66%, 47%);
+    --body-color: hsl(var(--hue-color), 66%, 99%);
     --conmtainer: #FFF;
     --scroll-bar-color: hsl(var(--hue-color), 15%, 85%);
     --scroll-thumb-color: hsl(var(--hue-color), 15%, 70%);
@@ -64,13 +64,12 @@
     --z-fixed: 100;
     --z-model: 1000;
 
-
 }
 
 /* Font Size for Larger Devices */
 @media screen and (min-width: 968px){
     :root {
-        --big-font-size: 2rem;
+        --big-font-size: 3rem;
         --h1-font-size: 2.5rem;
         --h2-font-size: 1.5rem;
         --h3-font-size: 1.25rem;
@@ -78,4 +77,224 @@
         --small-font-size: 0.875rem;
         --smaller-font-size: 0.813rem;
     }
+}
+
+/* VARIABLE COLOR DARK THEME */
+body.dark-theme{
+    /* HSL Color Mode */
+    --first-color: hsl(var(--hue-color), 69%, 58%); /* Not changed */
+    --first-color-second: hsl(var(--hue-color), 30%, 8%);
+    --first-color-alt: hsl(var(--hue-color), 55%, 50%); /* Not changed */
+    --first-color-lighter: hsl(var(--hue-color), 90%, 82%); /* Not changed */
+
+    --title-color: hsl(var(--hue-color), 10%, 95%);
+    --text-color: hsl(var(--hue-color), 10%, 75%);
+    --mainText: hsl(var(--hue-color), 10%, 75%);
+    --text-color-light: hsl(var(--hue-color), 10%, 65%); /* Not changed */
+    --input-color: hsl(var(--hue-color), 29%, 16%);
+    --body-color: hsl(var(--hue-color), 30%, 14%);
+    --container-color: hsl(var(--hue-color), 30%, 16%);
+    --scroll-bar-color: hsl(var(--hue-color), 10%, 50%);
+    --scroll-thumb-color: hsl(var(--hue-color), 15%, 32%);
+}
+
+/* =============== NAV BOTTONS DARK/LIGHT THEME ================= */
+.nav_btns{
+    display: flex;
+    align-items: center;
+    padding-left: var(--mb-0-5);
+    margin: 0;
+    margin-top: -5px;
+    gap: var(--mb-0-75);
+}
+
+.change-theme{
+    font-size: 1.25rem;
+    color: var(--title-color);
+    margin-right: var(--mb-1);
+    cursor: pointer;
+}
+
+.change-theme:hover{
+    color: var(--first-color);
+}
+
+/* ============== BASE ================ */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 0 var(--header-height) 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+}
+
+h1, h2, h3, h4{
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* ================== REUSABLE CSS CLASSES =================== */
+.section{
+    padding: 2rem 0 4rem;
+    margin: auto;
+    min-height: 80vh;
+}
+
+.section_title{
+    font-size: var(--big-font-size);
+    font-family: var(--gullible-font);
+}
+
+.section_subtitle{
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-3);
+}
+
+.section_title,
+.section_subtitle{
+    text-align: center;
+}
+
+/* ============================= LAYOUT ============================== */
+
+.container{
+    margin-right: var(--mb-1);
+}
+
+.grid{
+    display: grid;
+}
+
+.header{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: var(--z-fixed);
+    background-color: var(--body-color);
+    margin-right: var(--mb-0-25);
+}
+
+/* ======================= NAV STYLING ========================== */
+
+.nav{
+    max-width: 968px;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: var(--mb-0-5);
+    margin-right: var(--mb-0-5);
+}
+
+.nav_logo, 
+.nav_toggle{
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+}
+
+.nav_logo:hover{
+    color: var(--first-color);
+}
+
+.nav_toggle{
+    font-size: var(--h3-font-size);
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.nav_toggle:hover{
+    color: var(--first-color);
+}
+
+.navbar-brand{
+    font-family: var(--robotomono-font);
+}
+
+@media screen and (max-width: 768px) {
+    .nav_menu{
+        position: fixed;
+        bottom: -100%;
+        right: 0;
+        width: 100%;
+        background-color: var(--body-color);
+        padding: 2rem 1.5rem 4rem;
+        box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 1.5rem 1.5rem 0 0;
+        transition: .5s;
+    }
+}
+
+.nav_list{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.nav_link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+}
+
+.nav_link:hover{
+    color: var(--first-color)
+}
+
+.nav_icon{
+    font-size: 1.2rem;
+}
+
+.nav_close{
+    position: absolute;
+    right: 1.3rem;
+    bottom: .5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--first-color);
+}
+
+.nav_close:hover{
+    color: var(--first-color-alt);
+}
+
+/* SHOW MENU */
+.show-menu{
+    bottom: 0;
+}
+
+/* ACTIVE MENU */
+.active-link{
+    color: var(--first-color);
+}
+
+/* Change background header */
+.scroll-header{
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
