@@ -195,7 +195,7 @@ img{
     color: #FFF;
 }
 
-.button__icon{
+.button_icon{
     font-size: 1.25rem;
     margin-left: var(--mb-0-5);
     transition: .3s;
