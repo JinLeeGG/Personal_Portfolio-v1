@@ -24,7 +24,8 @@
     
     <title>GyuJin Lee</title>
   </head>
-  <body>
+<body>
+
 <!-- ------------------------ HEADER --------------------------->
     <header class="header" id="home">
         <nav class="nav container navbar-expand-lg">
@@ -67,7 +68,7 @@
 
               <li class="nav_item">
                 <a href="#contact" class="nav_link">
-                  <i class="uil uil-message"></i>Contact Us
+                  <i class="uil uil-message"></i>Contact Me
                 </a>
               </li>
             </ul>
@@ -86,10 +87,49 @@
     </header>
 <!-- ======================== MAIN ============================-->
     <main class="main"></main>
+
     <!-- ------------------------ HOME ---------------------------->
         <section class="home section" id="home">
+          <div class="home_container container grid">
+           
+              <div class="home_content grid">
+                <div class="home_social">
+                  <a href="" target="_black" class="home_social-icon" id="myLinkedIn">
+                    <i class="uil uil-linkedin"></i>
+                  </a>
 
+                  <a href="" target="_black" class="home_social-icon" id="myInstagram">
+                    <i class="uil uil-instagram"></i>
+                  </a>
 
+                  <a href="" target="_black" class="home_social-icon" id="myGitHub">
+                    <i class="uil uil-github-alt"></i>
+                  </a>
+
+                  <a href="" target="_black" class="home_social-icon" id="myFaceBook">
+                    <i class="uil uil-facebook-f"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="home_data">
+                <small class="home_welcome s-color"> Welcome to my Portfolio Website! </small>
+                <h1 class="home_title"> Hey I'm </h1>
+                <h3 class="home_subtitle" id="home-bio">
+                <div id="typewriter"></div>
+                </h3>
+                <a href="#contact" class="button button--flex"></a>
+                  Contact Me <i class="uil uil-message button_icon"></i>
+              </div>
+
+              <div class="home_scroll">
+                <a href="#about" class="home_scroll-button--flex">
+                  <i class="uil uil-mouse-alt"></i>
+                  <span class="home_scroll-name"> Scroll Down </span>
+                  <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                </a>
+              </div>
+          </div>
         </section>
 
     <!-- ------------------------ ABOUT ME ----------------------->
@@ -145,6 +185,9 @@
 
     <!-- Argon JS -->
     <script src="js/argon-design-system.js"></script>
+
+    <!-- Typewriter CSS Effect -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
     <!-- Self Script -->
     <script src="js/script.js"></script>

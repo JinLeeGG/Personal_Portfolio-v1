@@ -208,7 +208,7 @@ img{
     justify-content: space-between;
     align-items: center;
     margin-left: var(--mb-0-5);
-    margin-right: var(--mb-0-5);
+    margin-right: var(--mb-0-25);
 }
 
 .nav_logo, 
