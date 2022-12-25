@@ -77,3 +77,19 @@ new Typewriter('#typewriter', {
 
 console.log("Typewriter effect is working!")
 
+//========================= Portfolio Swiper ===========================
+
+var swiper = new Swiper('.blog-slider', {
+    spaceBetween: 30,
+    effect: 'fade',
+    loop: true,
+    mousewheel: {
+      invert: false,
+    },
+    // autoHeight: true,
+    pagination: {
+      el: '.blog-slider__pagination',
+      clickable: true,
+    }
+  });
+console.log("Portfolio Swiper is working!")
