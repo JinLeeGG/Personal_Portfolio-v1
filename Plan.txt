@@ -16,3 +16,10 @@ left-> image
 right-> text
 
 below image: -> EXPERIENCE
+
+
+Skills
+
+card ----> software skills
+card -> Designs
+
