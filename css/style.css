@@ -437,7 +437,7 @@ img{
     padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
-/* SCROLL DOWN */
+/* SCROLL DOWN
 @keyframes scrollDown{
     0%{
         margin-top: 14px;
@@ -493,7 +493,7 @@ img{
 
 .home_scroll-arrow{
     font-size: var(--h3-font-size);
-}
+} */
 
 /* ============== ABOUT ================ */
 
@@ -1327,7 +1327,7 @@ img{
   bottom: 5rem;
 }
 
-    /* ===================== SCROLL BAR ================== */
+/* ===================== SCROLL BAR ================== */
 
 ::-webkit-scrollbar{
   width: 0.6rem;
@@ -1416,3 +1416,42 @@ img{
   }
 }
 
+ /* Medium size Screen devices */
+ @media screen and (min-width: 568px){
+  .home__content{
+    grid-template-columns: max-content 1fr;
+  }
+  .section{
+    min-height: 60vh;
+  }
+  .home__data{
+    grid-column: initial;
+  }
+
+  .about__container,
+  .skill__container,
+  .portfolio__container,
+  .contact__container,
+  .footer__container{
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: var(--mb-1);
+    padding-right: var(--mb-1);
+  }
+
+  /* .qualification__sections{
+    display: grid;
+    grid-template-columns: 0.85fr;
+    justify-content: center;
+  } */
+
+  .portfolio{
+    padding-bottom: var(--mb-0-25);
+  }
+  .contact{
+    padding-top: 0;
+  }
+  .qualification__start-icon{
+    position: absolute;
+    transform: translateY(60%);    
+  }
+}
