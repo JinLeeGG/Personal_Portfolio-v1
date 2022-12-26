@@ -23,3 +23,12 @@ Skills
 card ----> software skills
 card -> Designs
 
+
+Timeline Designs
+
+Educations Experience
+
+line - date
+card - title
+        Institute
+        Det

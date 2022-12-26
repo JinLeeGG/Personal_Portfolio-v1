@@ -712,27 +712,129 @@
         </section>
     
     <!-- ------------------------ CONTACT US  ----------------------->
-        <section class="contact section" id="contact">
-          <h2 class="section__title"> Contact Me </h2>
-            <span class="section__subtitle"> Get in touch </span>
+    <section class="contact section" id="contact">
+      <h2 class="section__title"> Contact Me </h2>
+      <span class="section__subtitle"> Get in touch</span>
 
-        </section>
+      <div class="row mt-lg-6 justify-content-center contact_mail">
+          <!-- Contact information -->
+          <div class="col-lg-6 mx-lg-0 mx-2 contact_container container">
+              <div class="contact_information">
+                  <i class="uil uil-phone contact_icon"></i>
+
+                  <div>
+                      <h3 class="contact_title">Call Me</h3>
+                      <span class="contact_subtitle">+01-989898986</span>
+                  </div>
+              </div>
+
+              <div class="contact_information">
+                  <i class="uil uil-envelope contact_icon"></i>
+
+                  <div>
+                      <h3 class="contact_title">E-mail</h3>
+                      <span class="contact_subtitle">mail@email.com</span>
+                  </div>
+              </div>
+
+              <div class="contact_information">
+                  <i class="uil uil-location-pin-alt contact_icon"></i>
+                  <div>
+                      <h3 class="contact_title">Address</h3>
+                      <span class="contact_subtitle"> Shikoku, Ehime - Japan</span>
+                  </div>
+              </div>
+          </div>
+
+          <!-- FORM -->
+          <div class="col-lg-6 pl-lg-4 mt-lg-0 mt-6 contact-form" id="message-me">
+              <h2 class="contact_title"> Interested to work together? - <span> Let's talk </span></h2>
+
+              <form action="#" method="POST" class="cf">
+                  <div class="row">
+                      <div class="col-lg-6">
+                          <input type="text" name="message-name" class="form-control form__color mb-30 cf" placeholder="Your Name">
+                      </div> 
+                      <div class="col-lg-6">
+                          <input type="email" name="message-email" class="form-control form__color mb-30 cf" placeholder="Your Email">
+                      </div>
+                      <div class="col-12">
+                          <input type="text" name="message-subject" class="form-control form__color mb-30 cf" placeholder="Subject">
+                      </div>
+                      <div class="col-12">
+                          <textarea name="message" class="form-control form__color mb-30 cf" cols="30" rows="5" placeholder="Your Message"></textarea>
+                      </div>
+                      <div class="col-12">
+                          <button type="submit" class="button button--flex send-message form__button">
+                              Send Message
+                              <i class="uil uil-message button_icon"></i>
+                          </button>
+                      </div>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </section>
 
     </main>
 <!-- ----------------------- FOOTER --------------------------->
     <footer class="footer">
+        <div class="footer_bg">
+            <div class="footer__container container">
 
+                <div>
+                    <h1 class="footer_title"> GyuJin </h1>
+                    <span class="footer_subtitle"> Software Engineer and Developer</span>
+                </div>
+
+                <ul class="footer_links">
+                    <li>
+                        <a href="#about" class="footer_link"> About me </a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio" class="footer_link"> My Portfolio </a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer_link"> Contact Me </a>
+                    </li>
+                </ul>
+
+                <div class="footer_socials">
+                    <a href="" target="_black" class="footer_link" id="myLinkedIn">
+                        <i class="uil uil-linkedin"></i>
+                      </a>
+    
+                      <a href="" target="_black" class="footer_link" id="myInstagram">
+                        <i class="uil uil-instagram"></i>
+                      </a>
+    
+                      <a href="" target="_black" class="footer_link" id="myGitHub">
+                        <i class="uil uil-github-alt"></i>
+                      </a>
+    
+                      <a href="" target="_black" class="footer_link" id="myFaceBook">
+                        <i class="uil uil-facebook-f"></i>
+                      </a>
+                </div>
+            </div>
+
+            <p class="footer_copy">&#169; GL. All rights reserved</p>
+        </div>
     </footer>
 
+<!-- ----------------------- SCROLL TOP --------------------------->
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup_icon"></i>
+</a>
 
 
 
 
 
 
-
-    <!-- Option 1: Bootstrap Bundle with Popper
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+  
     
     <!-- Core -->
     <script src="js/core/jquery.min.js"></script>
