@@ -105,7 +105,8 @@ body.dark-theme{
     padding-left: var(--mb-0-5);
     margin: 0;
     margin-top: -5px;
-    gap: var(--mb-0-75);
+    margin-right: -20px;
+    gap: var(--mb-1-25);
 }
 
 .change-theme{
@@ -368,13 +369,11 @@ img{
 }
 
 .home_social{
-    display: grid;
-    grid-area: home_social;
-    grid-template-columns: max-content;
-    row-gap: 1rem;
-    column-gap: 0;
-    padding-top: 2rem;
-    margin: 0;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: auto;
+  font-size: 1.5rem;
+  column-gap: var(--mb-1);
 }
 
 .home_social-icon{
@@ -1387,8 +1386,16 @@ img{
     padding: 0;
 }
 
+.home_social{
+
+  padding: 1.5rem;
+  display: flex;
+  justify-content: auto;
+  font-size: 1.5rem;
+  column-gap: var(--mb-1);
+}
   .footer_links{
-    margin-right: 15%;
+    margin-right: 10%;
     margin-top: 10%;
     display: flex;
     align-items: center;
