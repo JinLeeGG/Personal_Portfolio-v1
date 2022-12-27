@@ -30,7 +30,7 @@
 
 
 <!-- ------------------------ HEADER --------------------------->
-    <header class="header" id="home">
+    <header class="header" id="header">
         <nav class="nav container navbar-expand-lg">
           <a href="#" class="nav logo nabar-brand ml-3">GyuJin Lee</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-defualt" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,7 +76,7 @@
               </li>
 
               <li class="nav_item">
-                <a href="#home" class="nav_link">
+                <a href="#" onclick="return false;" class="nav_link">
                     <i data-mode="dark" class="uil uil-moon moon-change-theme" id="theme-button"> Dark Mode</i>
                 </a>
               </li>
@@ -132,6 +132,11 @@
 
           </div>
 
+          <div class="home_scroll">
+            <a href="#about" class="home_scroll-button button--flex">
+                <h3 class="scroll_description"><i class="uil uil-arrow-down"></i>Let's explore more about me!<i class="uil uil-arrow-down"></i></h3>
+            </a>
+        </div>
         </section>
             
 
@@ -632,7 +637,7 @@
           <span class="section__subtitle"> My most recent works </span>
 
           <div class="blog-slider">
-            <div class="blog-slider__wrp swiper-wrapper">
+            <div class="blog-slider__wrp tra swiper-wrapper">
                 
                 <!-- For portfolio item 1 -->
                 <div class="blog-slider__item swiper-slide">
@@ -751,16 +756,16 @@
               <form action="#" method="POST" class="cf">
                   <div class="row">
                       <div class="col-lg-6">
-                          <input type="text" name="message-name" class="form-control form__color mb-30 cf" placeholder="Your Name">
+                          <input type="text" name="message-name" class="form-control form__color mb-30 transparent_card cf" placeholder="Your Name">
                       </div> 
                       <div class="col-lg-6">
-                          <input type="email" name="message-email" class="form-control form__color mb-30 cf" placeholder="Your Email">
+                          <input type="email" name="message-email" class="form-control form__color  mb-30 transparent_card cf" placeholder="Your Email">
                       </div>
                       <div class="col-12">
-                          <input type="text" name="message-subject" class="form-control form__color mb-30 cf" placeholder="Subject">
+                          <input type="text" name="message-subject" class="form-control form__color mb-30 transparent_card cf" placeholder="Subject">
                       </div>
                       <div class="col-12">
-                          <textarea name="message" class="form-control form__color mb-30 cf" cols="30" rows="5" placeholder="Your Message"></textarea>
+                          <textarea name="message" class="form-control form__color mb-30 transparent_card cf" cols="30" rows="5" placeholder="Your Message"></textarea>
                       </div>
                       <div class="col-12">
                           <button type="submit" class="button button--flex send-message form__button">

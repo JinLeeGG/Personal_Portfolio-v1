@@ -64,6 +64,11 @@
     --z-fixed: 100;
     --z-model: 1000;
 
+    /*  ======== Background  ========= */
+    --background-body-color: hsl(var(--hue-color), 66%, 99%);
+    --border-color: none;
+    --border-style: none;
+    --footer-color: var(--first-color);
 }
 
 /* Font Size for Larger Devices */
@@ -96,6 +101,11 @@ body.dark-theme{
     --container-color: hsl(var(--hue-color), 30%, 16%);
     --scroll-bar-color: hsl(var(--hue-color), 10%, 50%);
     --scroll-thumb-color: hsl(var(--hue-color), 15%, 32%);
+
+    --background-body-color: rgba(255, 255, 255, 0.068);
+    --border-color: rgba(255, 255, 255, 0.425);
+    --border-style: solid;
+    --footer-color: hsl(250, 53%, 18%);
 }
 
 /* =============== NAV BOTTONS DARK/LIGHT THEME ================= */
@@ -434,6 +444,15 @@ img{
     padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
+.scroll_description{
+  text-align: center;
+  font-size: var(large);
+  color: var(--text-color);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-1);
+  padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
 /* SCROLL DOWN */
 @keyframes scrollDown{
     0%{
@@ -468,7 +487,8 @@ img{
 
 .home_scroll-button{
     color:var(--first-color);
-    transition: .5s;
+    transition: 1s;
+    margin-top: 10%;
 }
 
 .home_scroll-button:hover{
@@ -509,6 +529,7 @@ img{
 .about_description{
     text-align:center;
     margin-bottom: var(--mb-2-5);
+    color: var(--text-color);
 }
 
 .about_info{
@@ -526,6 +547,7 @@ img{
 .about_info-name{
     font-size: var(--smaller-font-size);
     font-family: var(--roboto-font);
+    color:var(--text-color-light);
 }
 
 .about_info-name,
@@ -540,6 +562,7 @@ img{
 }
 
 /* ============== SKILLS ================ */
+
 
 .skills_container-card{
     position: relative;
@@ -603,6 +626,15 @@ img{
     transform: translate(-15%, -10%);
 }
 
+.imgBx_HTML{
+  position: absolute;
+  width:100px;
+  height: 100px;
+  transition: 0.5s;
+  transform: translate( 14%, -20%);
+  object-fit: fill;
+}
+
 .card_skill:hover .imgBx_CSS{
     width: 65%;
     height: 65%;
@@ -615,14 +647,7 @@ img{
     transform: translate(-15%, -10%);
 }
 
-.imgBx_HTML{
-    position: absolute;
-    width:100px;
-    height: 100px;
-    transition: 0.5s;
-    transform: translate( 14%, -20%);
-    object-fit: fill;
-}
+
 
 .imgBx{
     position: absolute;
@@ -751,6 +776,7 @@ img{
   background-color: var(--background-body-color);
   border-color: var(--border-color);
 }
+
 .mirror-face{
     border: 1px solid #FFF;
     border-radius: 15px;
@@ -836,7 +862,11 @@ img{
 	border-radius: 25px;
 	height: 400px;
 	transition: all 0.3s;
+  border-color: var(--border-color);
+  background-color: var(--background-body-color);
+  border-style: var(--border-style);
   }
+
   @media screen and (max-width: 992px) {
 	.blog-slider {
 	  max-width: 680px;
@@ -984,8 +1014,8 @@ img{
 	transition: all 0.4s;
   }
   .blog-slider__code {
-    font-size: 15px;
-	color: #7b7992;
+  font-size: 15px;
+	color: var(--text-color-light);
 	margin-bottom: 15px;
 	display: block;
 	font-weight: 500;
@@ -993,16 +1023,16 @@ img{
   .blog-slider__title {
 	font-size: 24px;
 	font-weight: 700;
-	color: #0d0925;
+	color: var(--title-color);
 	margin-bottom: 20px;
   }
   .blog-slider__text {
-    font-size: 15px;
+  font-size: 15px;
 	font-weight: 400;
-	color: #4e4a67;
+	color: var(--text-color);
 	line-height: 1.5em;
-    margin-bottom: 30px;
-    margin-right: 10%;
+  margin-bottom: 30px;
+  margin-right: 10%;
 }
   .blog-slider__button {
     font-size: 15px;
@@ -1234,7 +1264,7 @@ img{
 }
 
 .footer_bg{
-  background-color: var(--first-color);
+  background-color: var(--footer-color);
   padding: 2rem 0 3rem;
 }
 
@@ -1529,9 +1559,9 @@ img{
     column-gap: 2rem;
   }
   
-  .home_scroll-button{
+  /* .home_scroll-button{
     margin-left: 3rem;
-  }
+  } */
 
   .about{
     margin-top: 4rem;
@@ -1545,11 +1575,11 @@ img{
   }
 
   .about_description{
-    text-align: initial;
+    text-align: center;
   } 
 
   .about_info{
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   .footer_links {
@@ -1606,6 +1636,50 @@ img{
  /* Larger size Screen devices */
   @media screen and (min-width: 1024px){
   
+  .contentBx{
+    display: flex;
+    align-content: space-between;
+    text-align: center;
+    position: relative;
+    width: 0%;
+    height: 0%;
+    transform: scale(0.0);
+    transition: 1s;
+  }
+  
+  .card_skill:hover .contentBx{
+    display: flex;
+    height: 100%;
+    width: 70%;
+    position: relative;
+    object-fit: cover;
+    text-align: center;
+    transform: translate(10%, 75%);
+    transition: 0.8s;
+  }
+  
+  .cardskill .contentBx h2{
+    position: relative;
+    font-weight: var(--font-medium);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+  }
+  .card_skill:hover .imgBx_HTML{
+    width: 90%;
+    height: 90%;
+    transform: translate(8%, 5%);
+  }
+  
+  .imgBx_HTML{
+    position: absolute;
+    width:100px;
+    height: 100px;
+    transition: 0.5s;
+    transform: translate( 50%, 5%);
+    object-fit: fill;
+  }
+
   .header{
     top: 0;
     bottom: initial;
