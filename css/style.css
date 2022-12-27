@@ -1620,8 +1620,10 @@ img{
 
   .footer_links{
     flex-direction: row;
-    column-gap: 2rem;
-    margin-left: 22%;
+    align-items: center;
+    column-gap: 0;
+    margin-left: 5%;
+    justify-content: space-evenly;
   }
 
   .footer_socials{
@@ -1722,9 +1724,9 @@ img{
     min-width: 700px;
   }
 
-.home_social-icon{
-  display: none;
-}  
+  .home_social-icon{
+    display: none;
+  }  
 
 
 } 
