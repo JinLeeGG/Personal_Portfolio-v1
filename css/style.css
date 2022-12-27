@@ -350,8 +350,6 @@ img{
 .home_container{
     display: flex;
     gap: 1.75rem;
-    padding-left: 0;
-    margin-left: var(--mb-1);
     justify-content: space-around;
     align-items: center;
 }
@@ -436,7 +434,7 @@ img{
     padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
-/* SCROLL DOWN
+/* SCROLL DOWN */
 @keyframes scrollDown{
     0%{
         margin-top: 14px;
@@ -492,7 +490,7 @@ img{
 
 .home_scroll-arrow{
     font-size: var(--h3-font-size);
-} */
+}
 
 /* ============== ABOUT ================ */
 
@@ -542,11 +540,6 @@ img{
 }
 
 /* ============== SKILLS ================ */
-
-
-/* .skills_container{
-    
-} */
 
 .skills_container-card{
     position: relative;
@@ -1480,7 +1473,6 @@ img{
 /* Large size Screen devices */
 @media screen and (min-width: 768px){
   .container{
-    margin-left: auto;
     margin-right: auto;
   }
 
@@ -1529,11 +1521,7 @@ img{
 
   .change-theme{
     margin: 0;
-    /* padding: 0; */
-  }
-
-  .home_container{
-    row-gap: 5rem;
+    padding: 0;
   }
 
   .home_content{
@@ -1558,11 +1546,27 @@ img{
 
   .about_description{
     text-align: initial;
+  } 
+
+  .about_info{
+    justify-content: space-between;
   }
 
-  /* .about__info{
-    justify-content: space-between;
-  } */
+  .footer_links {
+    font-size: x-large;
+    margin-right: 6%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
+
+  .button--flex {
+    display: inline-flex;
+    align-items: center;
+    font-size: large;
+  } 
 
   .about_buttons{
     justify-content: center;
@@ -1594,7 +1598,55 @@ img{
     margin-top: 4.5rem;
   }
 
-  /* .home__data{
+  /* .home_data{
     transform: translateX(80px);
   } */
 }
+
+ /* Larger size Screen devices */
+  @media screen and (min-width: 1024px){
+  
+  .header{
+    top: 0;
+    bottom: initial;
+  }  
+    
+  .header,
+  .main,
+  .footer_container{
+    padding: 0 1rem;
+  }
+
+  .header{
+    padding-right: 10rem;
+    margin-left: 20%;
+  }
+
+  .home_social{
+    transform: translateX(-7.5rem);
+  }
+
+  .contact_form{
+    width: 460px;
+  }
+
+  .contact_inputs{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact_container{
+    padding-left: var(--mb-3);
+    padding-top: var(--mb-3);
+    row-gap: 4rem;
+  }
+
+  .form{
+    min-width: 700px;
+  }
+
+.home_social-icon{
+  display: none;
+}  
+
+
+} 
