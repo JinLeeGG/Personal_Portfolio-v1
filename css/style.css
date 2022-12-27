@@ -651,7 +651,20 @@ img{
     transform: translate(-15%, -10%);
 }
 
+.imgBx_Java {
+  position: absolute;
+  width:85px;
+  height: 85px;
+  transition: 0.5s;
+  transform: translate( 30%, -30%);
+  object-fit: fill;
+}
 
+.card_skill:hover .imgBx_Java{
+  width: 65%;
+  height: 65%;
+  transform: translate(0%, -10%);
+}
 
 .imgBx{
     position: absolute;
@@ -1653,6 +1666,21 @@ img{
     transition: 1s;
   }
   
+  .imgBx_Java {
+    position: absolute;
+    width:85px;
+    height: 85px;
+    transition: 0.5s;
+    transform: translate( 65%, 0%);
+    object-fit: fill;
+  }
+  
+  .card_skill:hover .imgBx_Java{
+    width: 65%;
+    height: 65%;
+    transform: translate(27%, 5%);
+  }
+
   .card_skill:hover .contentBx{
     display: flex;
     height: 100%;
@@ -1682,9 +1710,25 @@ img{
     width:100px;
     height: 100px;
     transition: 0.5s;
-    transform: translate( 50%, 5%);
+    transform: translate( 47%, 10%);
     object-fit: fill;
   }
+
+  .imgBx_CSS{
+    position: absolute;
+    width:80px;
+    height: 80px;
+    transition: 0.5s;
+    transform: translate( 70%, 5%);
+    object-fit: fill;
+  }
+
+  .card_skill:hover .imgBx_CSS{
+    width: 70%;
+    height: 70%;
+    transform: translate(20%, 5%);
+}
+
 
   .header{
     top: 0;
