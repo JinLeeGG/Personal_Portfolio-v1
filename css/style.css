@@ -130,6 +130,8 @@ body.dark-theme{
     color: var(--first-color);
 }
 
+
+
 /* ============== BASE ================ */
 *{
     box-sizing: border-box;
@@ -351,7 +353,7 @@ img{
 /* ============================= HOME ============================== */
 
 .home{
-    height: 80vh;
+    height: 125vh;
     align-content: space-between;
     margin-top: var(--mb-3);
     padding-bottom: 0;
@@ -446,7 +448,7 @@ img{
 
 .scroll_description{
   text-align: center;
-  font-size: var(large);
+  font-size: var(--h3-font-size);
   color: var(--text-color);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-1);
@@ -1654,7 +1656,7 @@ img{
 
  /* Larger size Screen devices */
   @media screen and (min-width: 1024px){
-  
+
   .contentBx{
     display: flex;
     align-content: space-between;
