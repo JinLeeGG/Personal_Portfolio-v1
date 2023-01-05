@@ -1,1136 +1,1440 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Poppins:wght@200;300;400;600;800&family=Roboto&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Poppins:wght@200;300;400;600;800&family=Roboto&family=Roboto+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- ICONS -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
     <!-- Argon CSS -->
-    <link type="text/css" href="css/argon-design-system.min.css" rel="stylesheet">
+    <link
+      type="text/css"
+      href="css/argon-design-system.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
     <!-- Personal Styling -->
-    <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="css/style.css" />
+
     <title>GyuJin Lee's Portfolio Website</title>
   </head>
-<body>
-
-
-<!-- ------------------------ HEADER --------------------------->
+  <body>
+    <!-- ------------------------ HEADER --------------------------->
     <header class="header" id="header">
-        <nav class="nav container navbar-expand-lg">
-          <a href="#" class="nav_logo nabar-brand ml-3">GyuJin</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-defualt" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+      <nav class="nav container navbar-expand-lg">
+        <a href="#" class="nav_logo nabar-brand ml-3">GyuJin</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar-defualt"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="nav_menu" id="nav-menu">
-            <ul class="nav_list grid">
-              <li class="nav_item">
-                <a href="#home" class="nav_link">
-                  <i class="uil uil-estate nav_icon"></i>Home
-                </a>
-              </li>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list grid">
+            <li class="nav_item">
+              <a href="#home" class="nav_link">
+                <i class="uil uil-estate nav_icon"></i>Home
+              </a>
+            </li>
 
-              <li class="nav_item">
-                <a href="#about" class="nav_link">
-                  <i class="uil uil-user-circle nav_icon"></i>About
-                </a>
-              </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">
+                <i class="uil uil-user-circle nav_icon"></i>About
+              </a>
+            </li>
 
-              <li class="nav_item">
-                <a href="#skills" class="nav_link">
-                  <i class="uil uil-file-info-alt nav_icon"></i>Skills
-                </a>
-              </li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link">
+                <i class="uil uil-file-info-alt nav_icon"></i>Skills
+              </a>
+            </li>
 
-              <li class="nav_item">
-                <a href="#qualification" class="nav_link">
-                  <i class="uil uil-book-alt nav_icon"></i>Qualification
-                </a>
-              </li>
-              
-              <li class="nav_item">
-                <a href="#portfolio" class="nav_link">
-                  <i class="uil uil-scenery nav_icon"></i>Portfolio
-                </a>
-              </li>
+            <li class="nav_item">
+              <a href="#qualification" class="nav_link">
+                <i class="uil uil-book-alt nav_icon"></i>Qualification
+              </a>
+            </li>
 
-              <li class="nav_item">
-                <a href="#contact" class="nav_link">
-                  <i class="uil uil-message nav_icon"></i>Contact Me
-                </a>
-              </li>
+            <li class="nav_item">
+              <a href="#portfolio" class="nav_link">
+                <i class="uil uil-scenery nav_icon"></i>Portfolio
+              </a>
+            </li>
 
-              <li class="nav_item">
-                <a href="#" onclick="return false;" class="nav_link">
-                    <i data-mode="dark" class="uil uil-moon moon-change-theme" id="theme-button"> Dark Mode</i>
-                </a>
-              </li>
-            </ul>
-            <i class="uil uil-times nav_close" id="nav-close"></i>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">
+                <i class="uil uil-message nav_icon"></i>Contact Me
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#" onclick="return false;" class="nav_link">
+                <i
+                  data-mode="dark"
+                  class="uil uil-moon moon-change-theme"
+                  id="theme-button"
+                >
+                  Dark Mode</i
+                >
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav_close" id="nav-close"></i>
+        </div>
+
+        <div class="nav_btns">
+          <!-- THEME CHANGING BUTTONS -->
+          <!-- <i data-mode="dark" class="uil uil-moon moon-change-theme" id="theme-button"></i> -->
+
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
           </div>
-
-          <div class="nav_btns">
-            <!-- THEME CHANGING BUTTONS -->
-            <!-- <i data-mode="dark" class="uil uil-moon moon-change-theme" id="theme-button"></i> -->
-
-            <div class="nav_toggle" id="nav-toggle">
-              <i class="uil uil-apps"></i>
-            </div>
-          </div>
-        </nav>
+        </div>
+      </nav>
     </header>
-<!-- ======================== MAIN ============================-->
-<main class="main">
-    <div class="home_social">
-        <a href="https://www.linkedin.com/in/gyujin-lee-9aa707241/" target="_black" class="home_social-icon" id="myLinkedIn">
+    <!-- ======================== MAIN ============================-->
+    <main class="main">
+      <div class="home_social">
+        <a
+          href="https://www.linkedin.com/in/gyujin-lee-9aa707241/"
+          target="_black"
+          class="home_social-icon"
+          id="myLinkedIn"
+        >
           <i class="uil uil-linkedin"></i>
         </a>
 
-        <a href="https://www.instagram.com/gyujin_lee.js/" target="_black" class="home_social-icon" id="myInstagram">
+        <a
+          href="https://www.instagram.com/gyujin_lee.js/"
+          target="_black"
+          class="home_social-icon"
+          id="myInstagram"
+        >
           <i class="uil uil-instagram"></i>
         </a>
 
-        <a href="https://github.com/JinLeeGG" target="_black" class="home_social-icon" id="myGitHub">
+        <a
+          href="https://github.com/JinLeeGG"
+          target="_black"
+          class="home_social-icon"
+          id="myGitHub"
+        >
           <i class="uil uil-github-alt"></i>
         </a>
 
-        <a href="https://www.facebook.com/profile.php?id=100015853840100" target="_black" class="home_social-icon" id="myFaceBook">
+        <a
+          href="https://www.facebook.com/profile.php?id=100015853840100"
+          target="_black"
+          class="home_social-icon"
+          id="myFaceBook"
+        >
           <i class="uil uil-facebook-f"></i>
         </a>
       </div>
-    <!-- ------------------------ HOME ---------------------------->
-        <section class="home section" id="home">
-          <div class="home_container container grid">
-           
+      <!-- ------------------------ HOME ---------------------------->
+      <section class="home section" id="home">
+        <div class="home_container container grid">
+          <div class="home_data">
+            <small class="home_welcome s-color">
+              Hi there! welcome to my Portfolio Website!
+            </small>
+            <h1 class="home_title">Hello, I'm</h1>
+            <div id="typewriter"></div>
+            <h3 class="home_subtitle" id="home-bio">
+              As a software engineer enthousiast about technology, I am Strong
+              problem-solver and thrive in collaborative environments. As a
+              software engineer, I have a strong foundation in computer science
+              concepts and programming languages. I am skilled in analyzing user
+              and system requirements to determine the appropriate design and
+              development approach, and have experience designing, implementing,
+              and testing software components.
+            </h3>
+            <a href="#contact" class="button button--flex">
+              Contact Me <i class="uil uil-message button_icon"></i>
+            </a>
+          </div>
+        </div>
 
+        <div class="home_scroll">
+          <a href="#about" class="home_scroll-button button--flex">
+            <h3 class="scroll_description">
+              <i class="uil uil-arrow-down"></i>Let's explore more about me!<i
+                class="uil uil-arrow-down"
+              ></i>
+            </h3>
+          </a>
+        </div>
+      </section>
 
-              <div class="home_data">
-                <small class="home_welcome s-color"> Hi there! welcome to my Portfolio Website! </small>
-                <h1 class="home_title"> Hello, I'm</h1>
-                <div id="typewriter"></div>
-                <h3 class="home_subtitle" id="home-bio">As a software engineer enthousiast about technology, I am Strong problem-solver and
-                     thrive in collaborative environments. As a software engineer, I have a strong foundation in computer science concepts
-                      and programming languages. I am skilled in analyzing user and system requirements to determine the appropriate design
-                       and development approach, and have experience designing, implementing, and testing software components.</h3>
-                <a href="#contact" class="button button--flex">
-                   Contact Me <i class="uil uil-message button_icon"></i>
-                </a>
-              </div>
+      <section class="blank">
+        <div></div>
+      </section>
 
+      <!-- ------------------------ ABOUT ME ----------------------->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle"> What kind of person am I? </span>
+
+        <div class="about_container container grid">
+          <div class="about_img">
+            <img
+              src="assets/img/KakaoTalk_20221220_211642243.jpg"
+              alt="my profile photo"
+              class="about_img"
+            />
           </div>
 
-          <div class="home_scroll">
-            <a href="#about" class="home_scroll-button button--flex">
-                <h3 class="scroll_description"><i class="uil uil-arrow-down"></i>Let's explore more about me!<i class="uil uil-arrow-down"></i></h3>
-            </a>
-        </div>
-        </section>
-        
-        <section class="blank">
+          <div class="about_data">
+            <p class="about_description" id="home-about">
+              Hello, my name is GyuJin and I am a software engineer. I have a
+              passion for creating innovative software solutions and pride
+              myself on my ability to deliver high-quality products that meet
+              the needs of my clients and users. With a strong foundation in
+              computer science concepts and programming languages (Java, Python,
+              CSS, C++, HTML, JavaScript), I am skilled in analyzing user and
+              system requirements, designing and implementing software
+              components, and debugging and fixing defects. I am also committed
+              to staying up to date with industry trends and new technologies,
+              and enjoy collaborating with cross-functional teams to deliver
+              successful projects. I am excited to bring my skills and expertise
+              to new challenges and opportunities in software development.
+            </p>
+          </div>
+
+          <div class="about_info">
             <div>
-
+              <span class="about_info-title"> 02+ </span>
+              <span class="about_info-name">
+                Years <br />
+                Studying in CS field
+              </span>
             </div>
-        </section>
 
-
-    <!-- ------------------------ ABOUT ME ----------------------->
-        <section class="about section" id="about">
-          <h2 class="section__title">About Me</h2>
-          <span class="section__subtitle"> What kind of person am I?  </span>
-        
-          <div class="about_container container grid">
-
-            <div class="about_img">
-            <img src="assets/img/KakaoTalk_20221220_211642243.jpg" alt="my profile photo" class="about_img">
+            <div>
+              <span class="about_info-title"> 10+ </span>
+              <span class="about_info-name">
+                Projects <br />
+                Completed
+              </span>
             </div>
-            
-            <div class="about_data">
-              <p class="about_description" id="home-about"> 
-                Hello, my name is GyuJin and I am a software engineer. I have a passion for 
-                creating innovative software solutions and pride myself on my ability to deliver 
-                high-quality products that meet the needs of my clients and users. With a strong foundation
-                in computer science concepts and programming languages (Java, Python, CSS, C++, HTML, JavaScript), I am skilled in analyzing user and system 
-                requirements, designing and implementing software components, and debugging and fixing defects. I am also 
-                committed to staying up to date with industry trends and new technologies, and enjoy collaborating with 
-                cross-functional teams to deliver successful projects. I am excited to bring my skills and expertise to new
-                challenges and opportunities in software development.
-              </p>
-            </div>
-            
-            <div class="about_info">
-              <div>
-                <span class="about_info-title"> 02+ </span>
-                <span class="about_info-name"> Years <br> Studying in CS field </span>
-              </div>
-              
-              <div>
-                <span class="about_info-title"> 10+ </span>
-                <span class="about_info-name"> Projects <br> Completed </span>
-              </div>
 
             <!-- for the Company Experience -->
-              <!-- <div>
+            <!-- <div>
                 <span class="about_info-title"> 02+ </span>
                 <span class="about_info-name"> Companies <br> Worked </span>
               </div> -->
+          </div>
+
+          <div class="about_buttons">
+            <a
+              href="assets/file/resume.pdf"
+              download="my_resume"
+              target="_blank"
+              class="button button--flex"
+            >
+              Download My Résumé
+              <i class="uil uil-download-alt button_icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------------------ Skills ---------------------------->
+      <section class="qualification section" id="skills">
+        <h2 class="section__title">Skillset</h2>
+        <span class="section__subtitle"> My skillsets </span>
+
+        <div class="skills_container container grid">
+          <div class="row" id="skillset_container">
+            <!-- HTML -->
+            <div class="skills_container-card">
+              <div class="card_skill shadow2 transparent_card">
+                <div class="imgBx_HTML">
+                  <img
+                    src="assets/img/html5-with-wordmark-color.svg"
+                    alt="HTML logo"
+                  />
+                </div>
+                <div class="contentBx">
+                  <h2>HTML</h2>
+                </div>
+              </div>
             </div>
 
-            <div class="about_buttons">
-              <a href="assets/file/resume.pdf" download="my_resume" target="_blank" class="button button--flex">
-                Download My Résumé <i class="uil uil-download-alt button_icon"></i>
-              </a>
+            <!-- CSS -->
+            <div class="skills_container-card">
+              <div class="card_skill shadow2 transparent_card">
+                <div class="imgBx_CSS">
+                  <img src="assets/img/css3-seeklogo.com.svg" alt="CSS logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>CSS</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Python -->
+            <div class="skills_container-card">
+              <div class="card_skill shadow2 transparent_card">
+                <div class="imgBx_HTML">
+                  <img
+                    src="assets/img/python-seeklogo.com.svg"
+                    alt="Python logo"
+                  />
+                </div>
+                <div class="contentBx">
+                  <h2>Python</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- JavaScript -->
+            <div class="skills_container-card">
+              <div class="card_skill shadow2 transparent_card">
+                <div class="imgBx_HTML">
+                  <img
+                    src="assets/img/javascript-seeklogo.com.svg"
+                    alt="JavaScript logo"
+                  />
+                </div>
+                <div class="contentBx">
+                  <h2>JS</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Java -->
+            <div class="skills_container-card">
+              <div class="card_skill shadow2 transparent_card">
+                <div class="imgBx_Java">
+                  <img src="assets/img/java-seeklogo.com.svg" alt="Java logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>Java</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Docker -->
+            <div class="skills_container-card">
+              <div class="card_skill shadow2 transparent_card">
+                <div class="imgBx_HTML">
+                  <img
+                    src="assets/img/docker-seeklogo.com.svg"
+                    alt="Docker logo"
+                  />
+                </div>
+                <div class="contentBx">
+                  <h2>Docker</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- c++ -->
+            <div class="skills_container-card">
+              <div class="card_skill shadow2 transparent_card">
+                <div class="imgBx_HTML">
+                  <img src="assets/img/c-seeklogo.com.svg" alt="C++ logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>C++</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unity -->
+            <div class="skills_container-card">
+              <div class="card_skill shadow2 transparent_card">
+                <div class="imgBx_HTML">
+                  <img
+                    src="assets/img/unity-seeklogo.com.svg"
+                    alt="Unity logo"
+                  />
+                </div>
+                <div class="contentBx">
+                  <h2>Unity</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- GitHub -->
+            <div class="skills_container-card">
+              <div class="card_skill shadow2 transparent_card">
+                <div class="imgBx_HTML">
+                  <img
+                    src="assets/img/github-seeklogo.com.svg"
+                    alt="GitHub logo"
+                  />
+                </div>
+                <div class="contentBx">
+                  <h2>GitHub</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Git -->
+            <div class="skills_container-card">
+              <div class="card_skill shadow2 transparent_card">
+                <div class="imgBx_HTML">
+                  <img src="assets/img/git-seeklogo.com.svg" alt="Git logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>Git</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blender -->
+            <div class="skills_container-card">
+              <div class="card_skill shadow2 transparent_card">
+                <div class="imgBx_HTML">
+                  <img
+                    src="assets/img/blender-seeklogo.com.svg"
+                    alt="Blender logo"
+                  />
+                </div>
+                <div class="contentBx">
+                  <h2>Blender</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unreal Engine -->
+            <div class="skills_container-card">
+              <div class="card_skill shadow2 transparent_card">
+                <div class="imgBx_HTML">
+                  <img
+                    src="assets/img/unreal-tournament-seeklogo.com.svg"
+                    alt="Unreal Engine logo"
+                  />
+                </div>
+                <div class="contentBx">
+                  <h2>Unreal.E</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Photoshop -->
+            <div class="skills_container-card">
+              <div class="card_skill shadow2 transparent_card">
+                <div class="imgBx_HTML">
+                  <img
+                    src="assets/img/adobe-photoshop-seeklogo.com.svg"
+                    alt="Photoshop logo"
+                  />
+                </div>
+                <div class="contentBx">
+                  <h2>Ps</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- ScrumMaster -->
+            <div class="skills_container-card">
+              <div class="card_skill shadow2 transparent_card">
+                <div class="imgBx_HTML">
+                  <img
+                    src="assets/img/scrum-seeklogo.com.svg"
+                    alt="ScrumMaster logo"
+                  />
+                </div>
+                <div class="contentBx">
+                  <h2>Scrum</h2>
+                </div>
+              </div>
             </div>
           </div>
-        </section>
-
-    <!-- ------------------------ Skills ---------------------------->
-        <section class="qualification section" id="skills">
-          <h2 class="section__title"> Skillset </h2>
-          <span class="section__subtitle"> My skillsets </span>
-
-          <div class="skills_container container grid">
-            <div class="row" id="skillset_container">
-
-              <!-- HTML -->
-              <div class="skills_container-card">
-                <div class="card_skill shadow2 transparent_card">
-                  <div class="imgBx_HTML">
-                    <img src="assets/img/html5-with-wordmark-color.svg" alt="HTML logo">  
-                  </div>
-                  <div class="contentBx">
-                    <h2> HTML </h2>
-                  </div>
-                </div>
-              </div>
-
-              <!-- CSS -->
-              <div class="skills_container-card">
-                <div class="card_skill shadow2 transparent_card">
-                  <div class="imgBx_CSS">
-                    <img src="assets/img/css3-seeklogo.com.svg" alt="CSS logo">  
-                  </div>
-                  <div class="contentBx">
-                    <h2> CSS </h2>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Python -->
-              <div class="skills_container-card">
-                <div class="card_skill shadow2 transparent_card">
-                  <div class="imgBx_HTML">
-                    <img src="assets/img/python-seeklogo.com.svg" alt="Python logo">  
-                  </div>
-                  <div class="contentBx">
-                    <h2> Python </h2>
-                  </div>
-                </div>
-              </div>
-
-              <!-- JavaScript -->
-              <div class="skills_container-card">
-                <div class="card_skill shadow2 transparent_card">
-                  <div class="imgBx_HTML">
-                    <img src="assets/img/javascript-seeklogo.com.svg" alt="JavaScript logo">  
-                  </div>
-                  <div class="contentBx">
-                    <h2> JS </h2>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Java -->
-              <div class="skills_container-card">
-                <div class="card_skill shadow2 transparent_card">
-                  <div class="imgBx_Java">
-                    <img src="assets/img/java-seeklogo.com.svg" alt="Java logo">  
-                  </div>
-                  <div class="contentBx">
-                    <h2> Java </h2>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Docker -->
-              <div class="skills_container-card">
-                <div class="card_skill shadow2 transparent_card">
-                  <div class="imgBx_HTML">
-                    <img src="assets/img/docker-seeklogo.com.svg" alt="Docker logo">  
-                  </div>
-                  <div class="contentBx">
-                    <h2> Docker </h2>
-                  </div>
-                </div>
-              </div>
-
-              <!-- c++ -->
-              <div class="skills_container-card">
-                <div class="card_skill shadow2 transparent_card">
-                  <div class="imgBx_HTML">
-                    <img src="assets/img/c-seeklogo.com.svg" alt="C++ logo">  
-                  </div>
-                  <div class="contentBx">
-                    <h2> C++ </h2>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Unity -->
-              <div class="skills_container-card">
-                <div class="card_skill shadow2 transparent_card">
-                  <div class="imgBx_HTML">
-                    <img src="assets/img/unity-seeklogo.com.svg" alt="Unity logo">  
-                  </div>
-                  <div class="contentBx">
-                    <h2> Unity </h2>
-                  </div>
-                </div>
-              </div>
-
-              <!-- GitHub -->
-              <div class="skills_container-card">
-                <div class="card_skill shadow2 transparent_card">
-                  <div class="imgBx_HTML">
-                    <img src="assets/img/github-seeklogo.com.svg" alt="GitHub logo">  
-                  </div>
-                  <div class="contentBx">
-                    <h2> GitHub </h2>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Git -->
-              <div class="skills_container-card">
-                <div class="card_skill shadow2 transparent_card">
-                  <div class="imgBx_HTML">
-                    <img src="assets/img/git-seeklogo.com.svg" alt="Git logo">  
-                  </div>
-                  <div class="contentBx">
-                    <h2> Git </h2>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Blender -->
-              <div class="skills_container-card">
-                <div class="card_skill shadow2 transparent_card">
-                  <div class="imgBx_HTML">
-                    <img src="assets/img/blender-seeklogo.com.svg" alt="Blender logo">  
-                  </div>
-                  <div class="contentBx">
-                    <h2> Blender </h2>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Unreal Engine -->
-              <div class="skills_container-card">
-                <div class="card_skill shadow2 transparent_card">
-                  <div class="imgBx_HTML">
-                    <img src="assets/img/unreal-tournament-seeklogo.com.svg" alt="Unreal Engine logo">  
-                  </div>
-                  <div class="contentBx">
-                    <h2> Unreal.E </h2>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Photoshop -->
-              <div class="skills_container-card">
-                <div class="card_skill shadow2 transparent_card">
-                  <div class="imgBx_HTML">
-                    <img src="assets/img/adobe-photoshop-seeklogo.com.svg" alt="Photoshop logo">  
-                  </div>
-                  <div class="contentBx">
-                    <h2> Ps </h2>
-                  </div>
-                </div>
-              </div>
-
-              <!-- ScrumMaster -->
-              <div class="skills_container-card">
-                <div class="card_skill shadow2 transparent_card">
-                  <div class="imgBx_HTML">
-                    <img src="assets/img/scrum-seeklogo.com.svg" alt="ScrumMaster logo">  
-                  </div>
-                  <div class="contentBx">
-                    <h2> Scrum </h2>
-                  </div>
-                </div>
-              </div>
-
-
-              
-            </div>
-          </div>
-        </section>
-    <!-- ------------------------ QUALIFICATIONS (SKILLS AND EXPERIENCE) ----------------->
+        </div>
+      </section>
+      <!-- ------------------------ QUALIFICATIONS (SKILLS AND EXPERIENCE) ----------------->
       <section class="qualification section" id="qualification">
-        <h2 class="section__title"> Qualification </h2>
+        <h2 class="section__title">Qualification</h2>
         <span class="section__subtitle"> My persoanl Journey </span>
 
         <div class="qualification__container container">
+          <div class="row mt-lg-0">
+            <!-- Education -->
+            <div
+              class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content"
+              id="education"
+            >
+              <div class="qualification__button button--flex">
+                <i class="uil uil-graduation-cap qualification__icon"></i>
+                Education
+              </div>
 
-            <div class="row mt-lg-0">
-                <!-- Education -->
-                <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="education">
-                    <div class="qualification__button button--flex">
-                        <i class="uil uil-graduation-cap qualification__icon"></i> Education
-                    </div>
-
-                    <div id="education_timeline">
-                        <div class="container py-2">
-
-                            <!-- Timeline item 1 -->
-                            <div class="row">
-                                <!-- Timeline design -->
-                                <div class="col-auto text-center flex-column d-sm-flex">
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-
-                                    <h5>
-                                        <span class="badge qualification__calendar">
-                                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
-                                            2022
-                                        </span>
-                                    </h5>
-
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-                                </div>
-                                <!-- Timeline content Events -->
-                                <div class="col py-2">
-                                    <div class="card education-card transparent_card mirror-face shadow2">
-                                        <div class="card-body">
-                                            <div class="task">
-                                                <div class="abstract">
-                                                    <h3 class="qualification__title"> Comp 232 </h3>
-                                                    <p class="qualification__subtitle"> Dickinson College </p>
-                                                </div>
-                                                <div class="details">
-                                                    <p class="qualification__subtitle"> Obtained knowledge for Data Structure and algorithms </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Timeline item 2 -->
-                            <div class="row">
-                                <!-- Timeline design -->
-                                <div class="col-auto text-center flex-column d-sm-flex">
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-
-                                    <h5>
-                                        <span class="badge qualification__calendar">
-                                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
-                                            2021
-                                        </span>
-                                    </h5>
-
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-                                </div>
-                                <!-- Timeline content Events -->
-                                <div class="col py-2">
-                                    <div class="card education-card transparent_card mirror-face shadow2">
-                                        <div class="card-body">
-                                            <div class="task">
-                                                <div class="abstract">
-                                                    <h3 class="qualification__title"> Comp 132</h3>
-                                                    <p class="qualification__subtitle"> Dickinson College </p>
-                                                </div>
-                                                <div class="details">
-                                                    <p class="qualification__subtitle">Obtained knowledge for object-oriented programming based on Java. </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Timeline item 3 -->
-                            <div class="row">
-                                <!-- Timeline design -->
-                                <div class="col-auto text-center flex-column d-sm-flex">
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-
-                                    <h5>
-                                        <span class="badge qualification__calendar">
-                                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
-                                            2021
-                                        </span>
-                                    </h5>
-
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-                                </div>
-                                <!-- Timeline content Events -->
-                                <div class="col py-2">
-                                    <div class="card education-card transparent_card mirror-face shadow2">
-                                        <div class="card-body">
-                                            <div class="task">
-                                                <div class="abstract">
-                                                    <h3 class="qualification__title"> Comp 130 </h3>
-                                                    <p class="qualification__subtitle">Dickinson College</p>
-                                                </div>
-                                                <div class="details">
-                                                    <p class="qualification__subtitle"> Obtained knowledge for basic python skills and conducted multiple projects </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Timeline item 3 -->
-                            <div class="row">
-                                <!-- Timeline design -->
-                                <div class="col-auto text-center flex-column d-sm-flex">
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-
-                                    <h5>
-                                        <span class="badge qualification__calendar">
-                                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
-                                            2021
-                                        </span>
-                                    </h5>
-
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-                                </div>
-                                <!-- Timeline content Events -->
-                                <div class="col py-2">
-                                    <div class="card education-card transparent_card mirror-face shadow2">
-                                        <div class="card-body">
-                                            <div class="task">
-                                                <div class="abstract">
-                                                    <h3 class="qualification__title"> CSS and HTML </h3>
-                                                    <p class="qualification__subtitle">Hutchinson Community College</p>
-                                                </div>
-                                                <div class="details">
-                                                    <p class="qualification__subtitle"> Built web-development skills</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Timeline item 4 -->
-                            <div class="row">
-                                <!-- Timeline design -->
-                                <div class="col-auto text-center flex-column d-sm-flex">
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-
-                                    <h5>
-                                        <span class="badge qualification__calendar">
-                                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
-                                            2021
-                                        </span>
-                                    </h5>
-
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-                                </div>
-                                <!-- Timeline content Events -->
-                                <div class="col py-2">
-                                    <div class="card education-card transparent_card mirror-face shadow2">
-                                        <div class="card-body">
-                                            <div class="task">
-                                                <div class="abstract">
-                                                    <h3 class="qualification__title"> High School </h3>
-                                                    <p class="qualification__subtitle"> Trinity Catholic High School in Hutchinson, Kansas </p>
-                                                </div>
-                                                <div class="details">
-                                                    <p class="qualification__subtitle"> Studied Calculus, Chemistry, Physics, and basic programming course based on python. </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Timeline item end -->
-                            <div class="row">
-                                <!-- Timeline design -->
-                                <div class="col-auto text-center flex-column d-sm-flex">
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__start">
-                                                <i class="uil uil-compass qualification__start-icon"></i>
-                                            </span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-                                </div>
-                                <!-- Timeline content Events -->
-                                <div class="col py-2"></div>
-                            </div>
+              <div id="education_timeline">
+                <div class="container py-2">
+                  <!-- Timeline item 1 -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
                         </div>
-                    </div>
-                </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
 
-                <!-- Experience -->
-                <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="experience">
-                    <div class="qualification__button button--flex">
-                        <i class="uil uil-briefcase-alt qualification__icon"></i> Work Experience
-                    </div>
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i
+                            class="uil uil-calendar-alt qualification__calendar-icon"
+                          ></i>
+                          2022
+                        </span>
+                      </h5>
 
-                    <div id="expreience_timeline">
-                        <div class="container py-2">
-
-                             <!-- Timeline item 1 -->
-                             <div class="row">
-                                <!-- Timeline design -->
-                                <div class="col-auto text-center flex-column d-sm-flex">
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-
-                                    <h5>
-                                        <span class="badge qualification__calendar">
-                                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
-                                            2022
-                                        </span>
-                                    </h5>
-
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-                                </div>
-                                <!-- Timeline content Events -->
-                                <div class="col py-2">
-                                    <div class="card education-card transparent_card mirror-face shadow2">
-                                        <div class="card-body">
-                                            <div class="task">
-                                                <div class="abstract">
-                                                    <h3 class="qualification__title"> Resident Advisor - Adams Hall </h3>
-                                                    <p class="qualification__subtitle"> Dickinson College </p>
-                                                </div>
-                                                <div class="details">
-                                                    <p class="qualification__subtitle">  Provided support and guidance to residents, served as a resource for information about campus services and resources. wrote monthly newsletters and conducted social events for the resident.  </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Timeline item 1 -->
-                            <div class="row">
-                                <!-- Timeline design -->
-                                <div class="col-auto text-center flex-column d-sm-flex">
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-
-                                    <h5>
-                                        <span class="badge qualification__calendar">
-                                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
-                                            2022
-                                        </span>
-                                    </h5>
-
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-                                </div>
-                                <!-- Timeline content Events -->
-                                <div class="col py-2">
-                                    <div class="card education-card transparent_card mirror-face shadow2">
-                                        <div class="card-body">
-                                            <div class="task">
-                                                <div class="abstract">
-                                                    <h3 class="qualification__title"> Teaching Assistant </h3>
-                                                    <p class="qualification__subtitle"> Math 170 - Multivariable Calculus </p>
-                                                </div>
-                                                <div class="details">
-                                                    <p class="qualification__subtitle"> Provided additional support and instruction to over 30 students in Calculus I course during the Math helproom sessions. Assisting the professor in grading assignments and lab. </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Timeline item 2 -->
-                            <div class="row">
-                                <!-- Timeline design -->
-                                <div class="col-auto text-center flex-column d-sm-flex">
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-
-                                    <h5>
-                                        <span class="badge qualification__calendar">
-                                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
-                                            2022
-                                        </span>
-                                    </h5>
-
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-                                </div>
-                                <!-- Timeline content Events -->
-                                <div class="col py-2">
-                                    <div class="card education-card transparent_card mirror-face shadow2">
-                                        <div class="card-body">
-                                            <div class="task">
-                                                <div class="abstract">
-                                                    <h3 class="qualification__title"> Sophomore Representative </h3>
-                                                    <p class="qualification__subtitle"> CS and Math Major's Committee  </p>
-                                                </div>
-                                                <div class="details">
-                                                    <p class="qualification__subtitle"> Participated in the CS and Math Department's major's Committee, helping to update and modernize the curriculum to better prepare students for the workforce. Contributed to the development of new course offerings and assisted in the review of professor's work and resources." </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Timeline item 2 -->
-                            <div class="row">
-                                <!-- Timeline design -->
-                                <div class="col-auto text-center flex-column d-sm-flex">
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-
-                                    <h5>
-                                        <span class="badge qualification__calendar">
-                                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
-                                            2022
-                                        </span>
-                                    </h5>
-
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-                                </div>
-                                <!-- Timeline content Events -->
-                                <div class="col py-2">
-                                    <div class="card education-card transparent_card mirror-face shadow2">
-                                        <div class="card-body">
-                                            <div class="task">
-                                                <div class="abstract">
-                                                    <h3 class="qualification__title"> Secretary </h3>
-                                                    <p class="qualification__subtitle"> Math and CS Club  </p>
-                                                </div>
-                                                <div class="details">
-                                                    <p class="qualification__subtitle"> Managing the club's communications, including sending out announcements, newsletters, and other updates to members. Coordinating and scheduling club events, such as guest speakers, workshops, and social activities.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Timeline item 2 -->
-                            <div class="row">
-                                <!-- Timeline design -->
-                                <div class="col-auto text-center flex-column d-sm-flex">
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-
-                                    <h5>
-                                        <span class="badge qualification__calendar">
-                                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
-                                            2021
-                                        </span>
-                                    </h5>
-
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-                                </div>
-                                <!-- Timeline content Events -->
-                                <div class="col py-2">
-                                    <div class="card education-card transparent_card mirror-face shadow2">
-                                        <div class="card-body">
-                                            <div class="task">
-                                                <div class="abstract">
-                                                    <h3 class="qualification__title"> Full Time Clerk </h3>
-                                                    <p class="qualification__subtitle"> Hyosung PC Internet Cafe </p>
-                                                </div>
-                                                <div class="details">
-                                                    <p class="qualification__subtitle"> Assist customers if they need help with computer software and equipment. Maintain accurate records of logs and inventories of the shop. 
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Timeline item 3 -->
-                            <div class="row">
-                                <!-- Timeline design -->
-                                <div class="col-auto text-center flex-column d-sm-flex">
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-
-                                    <h5>
-                                        <span class="badge qualification__calendar">
-                                            <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
-                                            2021
-                                        </span>
-                                    </h5>
-
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__line"></span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-                                </div>
-                                <!-- Timeline content Events -->
-                                <div class="col py-2">
-                                    <div class="card education-card transparent_card mirror-face shadow2">
-                                        <div class="card-body">
-                                            <div class="task">
-                                                <div class="abstract">
-                                                    <h3 class="qualification__title"> Part Time English Tutor </h3>
-                                                    <p class="qualification__subtitle"> self-employed </p>
-                                                </div>
-                                                <div class="details">
-                                                    <p class="qualification__subtitle"> Planning and implementing lesson plans that are age-appropriate and align with curriculum standards for English language arts. Assessing students' language skills and developing individualized learning plans to meet their needs. </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Timeline item end -->
-                            <div class="row">
-                                <!-- Timeline design -->
-                                <div class="col-auto text-center flex-column d-sm-flex">
-                                    <div class="row h-50 qualification__journey">
-                                        <div class="col">
-                                            <span class="qualification__start">
-                                                <i class="uil uil-compass qualification__start-icon"></i>
-                                            </span>
-                                        </div>
-                                        <div class="col">&nbsp;</div>
-                                    </div>
-                                </div>
-                                <!-- Timeline content Events -->
-                                <div class="col py-2"></div>
-                            </div>
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
                         </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
                     </div>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2">
+                      <div
+                        class="card education-card transparent_card mirror-face shadow2"
+                      >
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="qualification__title">Comp 232</h3>
+                              <p class="qualification__subtitle">
+                                Dickinson College
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="qualification__subtitle">
+                                Obtained knowledge for Data Structure and
+                                algorithms
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Timeline item 2 -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i
+                            class="uil uil-calendar-alt qualification__calendar-icon"
+                          ></i>
+                          2021
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2">
+                      <div
+                        class="card education-card transparent_card mirror-face shadow2"
+                      >
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="qualification__title">Comp 132</h3>
+                              <p class="qualification__subtitle">
+                                Dickinson College
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="qualification__subtitle">
+                                Obtained knowledge for object-oriented
+                                programming based on Java.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Timeline item 3 -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i
+                            class="uil uil-calendar-alt qualification__calendar-icon"
+                          ></i>
+                          2021
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2">
+                      <div
+                        class="card education-card transparent_card mirror-face shadow2"
+                      >
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="qualification__title">Comp 130</h3>
+                              <p class="qualification__subtitle">
+                                Dickinson College
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="qualification__subtitle">
+                                Obtained knowledge for basic python skills and
+                                conducted multiple projects
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Timeline item 3 -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i
+                            class="uil uil-calendar-alt qualification__calendar-icon"
+                          ></i>
+                          2021
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2">
+                      <div
+                        class="card education-card transparent_card mirror-face shadow2"
+                      >
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="qualification__title">CSS and HTML</h3>
+                              <p class="qualification__subtitle">
+                                Hutchinson Community College
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="qualification__subtitle">
+                                Built web-development skills
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Timeline item 4 -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i
+                            class="uil uil-calendar-alt qualification__calendar-icon"
+                          ></i>
+                          2021
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2">
+                      <div
+                        class="card education-card transparent_card mirror-face shadow2"
+                      >
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="qualification__title">High School</h3>
+                              <p class="qualification__subtitle">
+                                Trinity Catholic High School in Hutchinson,
+                                Kansas
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="qualification__subtitle">
+                                Studied Calculus, Chemistry, Physics, and basic
+                                programming course based on python.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Timeline item end -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__start">
+                            <i
+                              class="uil uil-compass qualification__start-icon"
+                            ></i>
+                          </span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2"></div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-    </section>
 
-    <!-- ------------------------ PORTFOLIO ------------------------------>
-        <section class="portfolio section" id="portfolio">
-          <h2 class="section__title"> Portfolio </h2>
-          <span class="section__subtitle"> My personal projects </span>
+            <!-- Experience -->
+            <div
+              class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content"
+              id="experience"
+            >
+              <div class="qualification__button button--flex">
+                <i class="uil uil-briefcase-alt qualification__icon"></i> Work
+                Experience
+              </div>
 
-          <div class="blog-slider">
-            <div class="blog-slider__wrp tra swiper-wrapper">
-                
-                <!-- For portfolio item 1 -->
-                <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                        <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536__480.jpg" alt="Twitter type SNS ">
+              <div id="expreience_timeline">
+                <div class="container py-2">
+                  <!-- Timeline item 1 -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i
+                            class="uil uil-calendar-alt qualification__calendar-icon"
+                          ></i>
+                          2022
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
                     </div>
-
-                    <div class="blog-slider__content">
-                        <span class="blog-slider__code"> December 2022</span>
-                        <div class="blog-slider__title"> Project 1 Name </div>
-                        <div class="blog-slider__text"> Project explaination</div>
-                        <a href="https://youtu.be/E1X5Q3lgO30" target="_blank" class="button blog-slider__button button--flex"> 
-                            Demo
-                            <i class="uil uil-play button__icon"></i>
-                        </a>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2">
+                      <div
+                        class="card education-card transparent_card mirror-face shadow2"
+                      >
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="qualification__title">
+                                Resident Advisor - Adams Hall
+                              </h3>
+                              <p class="qualification__subtitle">
+                                Dickinson College
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="qualification__subtitle">
+                                Provided support and guidance to residents,
+                                served as a resource for information about
+                                campus services and resources. wrote monthly
+                                newsletters and conducted social events for the
+                                resident.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                  </div>
+
+                  <!-- Timeline item 1 -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i
+                            class="uil uil-calendar-alt qualification__calendar-icon"
+                          ></i>
+                          2022
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2">
+                      <div
+                        class="card education-card transparent_card mirror-face shadow2"
+                      >
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="qualification__title">
+                                Teaching Assistant
+                              </h3>
+                              <p class="qualification__subtitle">
+                                Math 170 - Multivariable Calculus
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="qualification__subtitle">
+                                Provided additional support and instruction to
+                                over 30 students in Calculus I course during the
+                                Math helproom sessions. Assisting the professor
+                                in grading assignments and lab.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Timeline item 2 -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i
+                            class="uil uil-calendar-alt qualification__calendar-icon"
+                          ></i>
+                          2022
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2">
+                      <div
+                        class="card education-card transparent_card mirror-face shadow2"
+                      >
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="qualification__title">
+                                Sophomore Representative
+                              </h3>
+                              <p class="qualification__subtitle">
+                                CS and Math Major's Committee
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="qualification__subtitle">
+                                Participated in the CS and Math Department's
+                                major's Committee, helping to update and
+                                modernize the curriculum to better prepare
+                                students for the workforce. Contributed to the
+                                development of new course offerings and assisted
+                                in the review of professor's work and
+                                resources."
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Timeline item 2 -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i
+                            class="uil uil-calendar-alt qualification__calendar-icon"
+                          ></i>
+                          2022
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2">
+                      <div
+                        class="card education-card transparent_card mirror-face shadow2"
+                      >
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="qualification__title">Secretary</h3>
+                              <p class="qualification__subtitle">
+                                Math and CS Club
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="qualification__subtitle">
+                                Managing the club's communications, including
+                                sending out announcements, newsletters, and
+                                other updates to members. Coordinating and
+                                scheduling club events, such as guest speakers,
+                                workshops, and social activities.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Timeline item 2 -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i
+                            class="uil uil-calendar-alt qualification__calendar-icon"
+                          ></i>
+                          2021
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2">
+                      <div
+                        class="card education-card transparent_card mirror-face shadow2"
+                      >
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="qualification__title">
+                                Full Time Clerk
+                              </h3>
+                              <p class="qualification__subtitle">
+                                Hyosung PC Internet Cafe
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="qualification__subtitle">
+                                Assist customers if they need help with computer
+                                software and equipment. Maintain accurate
+                                records of logs and inventories of the shop.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Timeline item 3 -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i
+                            class="uil uil-calendar-alt qualification__calendar-icon"
+                          ></i>
+                          2021
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2">
+                      <div
+                        class="card education-card transparent_card mirror-face shadow2"
+                      >
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="qualification__title">
+                                Part Time English Tutor
+                              </h3>
+                              <p class="qualification__subtitle">
+                                self-employed
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="qualification__subtitle">
+                                Planning and implementing lesson plans that are
+                                age-appropriate and align with curriculum
+                                standards for English language arts. Assessing
+                                students' language skills and developing
+                                individualized learning plans to meet their
+                                needs.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Timeline item end -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__start">
+                            <i
+                              class="uil uil-compass qualification__start-icon"
+                            ></i>
+                          </span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2"></div>
+                  </div>
                 </div>
-
-                <!-- For portfolio item 2 -->
-                <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                        <img src="https://cdn.pixabay.com/photo/2015/01/08/18/24/programming-593312__480.jpg" alt="Portfolio item">
-                    </div>
-
-                    <div class="blog-slider__content">
-                        <span class="blog-slider__code"> December 2022</span>
-                        <div class="blog-slider__title"> Project 2 Name </div>
-                        <div class="blog-slider__text"> Project explaination </div>
-                        <a href="https://www.youtube.com/watch?v=Zr6VA7Gl0yQ" target="_blank" class="button blog-slider__button button--flex"> 
-                            Demo
-                            <i class="uil uil-play button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- For portfolio item 3 -->
-                <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                        <img src="https://cdn.pixabay.com/photo/2016/10/16/16/33/dual-screen-1745705__480.png" alt="Portfolio item">
-                    </div>
-
-                    <div class="blog-slider__content">
-                        <span class="blog-slider__code"> December 2022 </span>
-                        <div class="blog-slider__title"> Project 3 Name </div>
-                        <div class="blog-slider__text"> Project explaination </div>
-                        <a href="https://youtu.be/a6PlEYCYJXw" target="_blank" class="button blog-slider__button button--flex"> 
-                            Demo
-                            <i class="uil uil-play button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- For portfolio item 4 -->
-                <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                        <img src="https://cdn.pixabay.com/photo/2017/09/05/10/19/business-2717063__480.jpg" alt="Portfolio item">
-                    </div>
-
-                    <div class="blog-slider__content">
-                        <span class="blog-slider__code"> December 2022 </span>
-                        <div class="blog-slider__title"> Project 4 Name </div>
-                        <div class="blog-slider__text"> Project explaination </div>
-                        <a href="https://www.youtube.com/watch?v=9NarL9NsRr8" target="_blank" class="button blog-slider__button button--flex"> 
-                            Demo
-                            <i class="uil uil-play button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="blog-slider__pagination"></div>
+              </div>
             </div>
+          </div>
         </div>
+      </section>
 
+      <!-- ------------------------ PORTFOLIO ------------------------------>
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle"> My personal projects </span>
 
-        </section>
-    
-    <!-- ------------------------ CONTACT US  ----------------------->
-    <section class="contact section" id="contact">
-      <h2 class="section__title"> Contact Me </h2>
-      <span class="section__subtitle"> Get in touch</span>
+        <div class="blog-slider">
+          <div class="blog-slider__wrp tra swiper-wrapper">
+            <!-- For portfolio item 1 -->
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img
+                  src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536__480.jpg"
+                  alt="Twitter type SNS "
+                />
+              </div>
 
-      <div class="row mt-lg-6 justify-content-center contact_mail">
+              <div class="blog-slider__content">
+                <span class="blog-slider__code"> December 2022</span>
+                <div class="blog-slider__title">Project 1 Name</div>
+                <div class="blog-slider__text">Project explaination</div>
+                <a
+                  href="https://youtu.be/E1X5Q3lgO30"
+                  target="_blank"
+                  class="button blog-slider__button button--flex"
+                >
+                  Demo
+                  <i class="uil uil-play button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- For portfolio item 2 -->
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img
+                  src="https://cdn.pixabay.com/photo/2015/01/08/18/24/programming-593312__480.jpg"
+                  alt="Portfolio item"
+                />
+              </div>
+
+              <div class="blog-slider__content">
+                <span class="blog-slider__code"> December 2022</span>
+                <div class="blog-slider__title">Project 2 Name</div>
+                <div class="blog-slider__text">Project explaination</div>
+                <a
+                  href="https://www.youtube.com/watch?v=Zr6VA7Gl0yQ"
+                  target="_blank"
+                  class="button blog-slider__button button--flex"
+                >
+                  Demo
+                  <i class="uil uil-play button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- For portfolio item 3 -->
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img
+                  src="https://cdn.pixabay.com/photo/2016/10/16/16/33/dual-screen-1745705__480.png"
+                  alt="Portfolio item"
+                />
+              </div>
+
+              <div class="blog-slider__content">
+                <span class="blog-slider__code"> December 2022 </span>
+                <div class="blog-slider__title">Project 3 Name</div>
+                <div class="blog-slider__text">Project explaination</div>
+                <a
+                  href="https://youtu.be/a6PlEYCYJXw"
+                  target="_blank"
+                  class="button blog-slider__button button--flex"
+                >
+                  Demo
+                  <i class="uil uil-play button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- For portfolio item 4 -->
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img
+                  src="https://cdn.pixabay.com/photo/2017/09/05/10/19/business-2717063__480.jpg"
+                  alt="Portfolio item"
+                />
+              </div>
+
+              <div class="blog-slider__content">
+                <span class="blog-slider__code"> December 2022 </span>
+                <div class="blog-slider__title">Project 4 Name</div>
+                <div class="blog-slider__text">Project explaination</div>
+                <a
+                  href="https://www.youtube.com/watch?v=9NarL9NsRr8"
+                  target="_blank"
+                  class="button blog-slider__button button--flex"
+                >
+                  Demo
+                  <i class="uil uil-play button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="blog-slider__pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------------------ CONTACT US  ----------------------->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle"> Get in touch</span>
+
+        <div class="row mt-lg-6 justify-content-center contact_mail">
           <!-- Contact information -->
           <div class="col-lg-6 mx-lg-0 mx-2 contact_container container">
-              <div class="contact_information">
-                  <i class="uil uil-phone contact_icon"></i>
+            <div class="contact_information">
+              <i class="uil uil-phone contact_icon"></i>
 
-                  <div>
-                      <h3 class="contact_title">Call Me</h3>
-                      <span class="contact_subtitle">+1 (717) 961-8258 </span>
-                  </div>
+              <div>
+                <h3 class="contact_title">Call Me</h3>
+                <span class="contact_subtitle">+1 (717) 961-8258 </span>
               </div>
+            </div>
 
-              <div class="contact_information">
-                  <i class="uil uil-envelope contact_icon"></i>
+            <div class="contact_information">
+              <i class="uil uil-envelope contact_icon"></i>
 
-                  <div>
-                      <h3 class="contact_title">E-mail</h3>
-                      <span class="contact_subtitle">leejo@dickinson.edu</span>
-                  </div>
+              <div>
+                <h3 class="contact_title">E-mail</h3>
+                <span class="contact_subtitle">leejo@dickinson.edu</span>
               </div>
+            </div>
 
-              <div class="contact_information">
-                  <i class="uil uil-location-pin-alt contact_icon"></i>
-                  <div>
-                      <h3 class="contact_title">Address</h3>
-                      <span class="contact_subtitle"> Pohang-si Buk-gu, Gyeonsangbuk-do - South Korea</span>
-                  </div>
+            <div class="contact_information">
+              <i class="uil uil-location-pin-alt contact_icon"></i>
+              <div>
+                <h3 class="contact_title">Address</h3>
+                <span class="contact_subtitle">
+                  Pohang-si Buk-gu, Gyeonsangbuk-do - South Korea</span
+                >
               </div>
+            </div>
           </div>
 
           <!-- FORM -->
-          <div class="col-lg-6 pl-lg-4 mt-lg-0 mt-6 contact-form" id="message-me">
-              <h2 class="contact_title"> Interested to work together? - <span> Let's talk </span></h2>
+          <div
+            class="col-lg-6 pl-lg-4 mt-lg-0 mt-6 contact-form"
+            id="message-me"
+          >
+            <h2 class="contact_title">
+              Interested to work together? - <span> Let's talk </span>
+            </h2>
 
-              <form action="#" method="POST" class="cf">
-                  <div class="row">
-                      <div class="col-lg-6">
-                          <input type="text" name="message-name" class="form-control form__color mb-30 transparent_card cf" placeholder="Your Name">
-                      </div> 
-                      <div class="col-lg-6">
-                          <input type="email" name="message-email" class="form-control form__color  mb-30 transparent_card cf" placeholder="Your Email">
-                      </div>
-                      <div class="col-12">
-                          <input type="text" name="message-subject" class="form-control form__color mb-30 transparent_card cf" placeholder="Subject">
-                      </div>
-                      <div class="col-12">
-                          <textarea name="message" class="form-control form__color mb-30 transparent_card cf" cols="30" rows="5" placeholder="Your Message"></textarea>
-                      </div>
-                      <div class="col-12">
-                          <button type="submit" class="button button--flex send-message form__button">
-                              Send Message
-                              <i class="uil uil-message button_icon"></i>
-                          </button>
-                      </div>
-                  </div>
-              </form>
+            <form action="#" method="POST" class="cf">
+              <div class="row">
+                <div class="col-lg-6">
+                  <input
+                    type="text"
+                    name="message-name"
+                    class="form-control form__color mb-30 transparent_card cf"
+                    placeholder="Your Name"
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <input
+                    type="email"
+                    name="message-email"
+                    class="form-control form__color mb-30 transparent_card cf"
+                    placeholder="Your Email"
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    type="text"
+                    name="message-subject"
+                    class="form-control form__color mb-30 transparent_card cf"
+                    placeholder="Subject"
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    name="message"
+                    class="form-control form__color mb-30 transparent_card cf"
+                    cols="30"
+                    rows="5"
+                    placeholder="Your Message"
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <button
+                    type="submit"
+                    class="button button--flex send-message form__button"
+                  >
+                    Send Message
+                    <i class="uil uil-message button_icon"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
           </div>
-      </div>
-  </section>
-
-</main>
-<!-- ----------------------- FOOTER --------------------------->
-    <footer class="footer">
-        <div class="footer_bg">
-            <div class="footer__container container">
-
-                <div>
-                    <h1 class="footer_title"> GyuJin </h1>
-                    <span class="footer_subtitle"> Front-end & Back-end Developer</span>
-                </div>
-
-                <ul class="footer_links">
-
-                    <li>
-                        <a href="#about" class="footer_link"><i class="uil uil-user-circle"></i> About Me </a>
-                    </li>
-
-                    <li>
-                        <a href="#portfolio" class="footer_link"><i class="uil uil-scenery"></i> Portfolio </a>
-                    </li>
-
-                    <li>
-                        <a href="#contact" class="footer_link"><i class="uil uil-message"></i> Contact Me </a>
-                    </li>
-                </ul>
-                <p class="footer_copy">&#169; GL. All rights reserved</p>
-                <div class="footer_socials">
-                    <a href="https://www.linkedin.com/in/gyujin-lee-9aa707241/" target="_black" class="footer_link" id="myLinkedIn">
-                        <i class="uil uil-linkedin"></i>
-                      </a>
-    
-                      <a href="https://www.instagram.com/gyujin_lee.js/" target="_black" class="footer_link" id="myInstagram">
-                        <i class="uil uil-instagram"></i>
-                      </a>
-    
-                      <a href="https://github.com/JinLeeGG" target="_black" class="footer_link" id="myGitHub">
-                        <i class="uil uil-github-alt"></i>
-                      </a>
-    
-                      <a href="https://www.facebook.com/profile.php?id=100015853840100" target="_black" class="footer_link" id="myFaceBook">
-                        <i class="uil uil-facebook-f"></i>
-                      </a>
-                </div>
-            </div>
-
         </div>
+      </section>
+    </main>
+    <!-- ----------------------- FOOTER --------------------------->
+    <footer class="footer">
+      <div class="footer_bg">
+        <div class="footer__container container">
+          <div>
+            <h1 class="footer_title">GyuJin</h1>
+            <span class="footer_subtitle"> Front-end & Back-end Developer</span>
+          </div>
+
+          <ul class="footer_links">
+            <li>
+              <a href="#about" class="footer_link"
+                ><i class="uil uil-user-circle"></i> About Me
+              </a>
+            </li>
+
+            <li>
+              <a href="#portfolio" class="footer_link"
+                ><i class="uil uil-scenery"></i> Portfolio
+              </a>
+            </li>
+
+            <li>
+              <a href="#contact" class="footer_link"
+                ><i class="uil uil-message"></i> Contact Me
+              </a>
+            </li>
+          </ul>
+          <p class="footer_copy">&#169; GL. All rights reserved</p>
+          <div class="footer_socials">
+            <a
+              href="https://www.linkedin.com/in/gyujin-lee-9aa707241/"
+              target="_black"
+              class="footer_link"
+              id="myLinkedIn"
+            >
+              <i class="uil uil-linkedin"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/gyujin_lee.js/"
+              target="_black"
+              class="footer_link"
+              id="myInstagram"
+            >
+              <i class="uil uil-instagram"></i>
+            </a>
+
+            <a
+              href="https://github.com/JinLeeGG"
+              target="_black"
+              class="footer_link"
+              id="myGitHub"
+            >
+              <i class="uil uil-github-alt"></i>
+            </a>
+
+            <a
+              href="https://www.facebook.com/profile.php?id=100015853840100"
+              target="_black"
+              class="footer_link"
+              id="myFaceBook"
+            >
+              <i class="uil uil-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </footer>
 
-<!-- ------------- SCROLL TOP -------------------->
-<a href="#" class="scrollup" id="scroll-up">
-    <i class="uil uil-arrow-up scrollup_icon"></i>
-</a>
+    <!-- ------------- SCROLL TOP -------------------->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
 
-
-
-
-
-
-
-  
-    
     <!-- Core -->
     <script src="js/core/jquery.min.js"></script>
     <script src="js/core/popper.min.js"></script>
@@ -1143,7 +1447,7 @@
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
     <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
     <!-- Self Script -->
     <script src="js/script.js"></script>
