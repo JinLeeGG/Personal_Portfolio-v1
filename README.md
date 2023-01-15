@@ -1,19 +1,8 @@
 # GyuJin Lee's Personal Portfolio
 
-This is HTML & CSS project for my personal porfolio 
-
-## Getting Started
-
-visit https://gyujinlee.netlify.app/ for the full view
-
-## Special Thanks
-
-Special Thanks to Udemy instructor Biplov Jha.
-
-# GyuJin Lee's Personal Portfolio
-
 ## Introduction
-This is a professional portfolio website built using HTML, CSS, JavaScript, and some additional technologies. The website showcases your personal information, work experience, and projects in an elegant and user-friendly manner, also it has an email feature and dark mode for more accessibility.
+This is a professional portfolio website built using HTML, CSS, JavaScript, and some additional technologies. The website showcases your personal information, work experience, and projects in an elegant and user-friendly manner, also it has an email feature and dark mode for more accessibility. 
+visit https://gyujinlee.netlify.app/ for the full view
 
 ## Requirements
 - A modern web browser
